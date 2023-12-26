@@ -31,6 +31,33 @@
     grid-row: 1 / 5;
 }
 
+.logo {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.side-bar-links {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background: white;
+    height: 300px;
+}
+
+.settings {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background: white;
+    height: 100px;
+}
 
 .main-contents {
     background: rgb(226, 232, 240);
