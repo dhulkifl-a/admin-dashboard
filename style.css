@@ -36,4 +36,6 @@
     background: rgb(226, 232, 240);
     grid-column: 2 / 3;
     grid-row: 2 / 5;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
