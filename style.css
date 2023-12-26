@@ -29,8 +29,6 @@
     background-color: rgb(25, 146, 212);
     grid-column: 1 / 2;
     grid-row: 1 / 5;
-    display: grid;
-    gap: 25px;
 }
 
 
