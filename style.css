@@ -28,32 +28,32 @@
 .sidebar {
     background-color: rgb(25, 146, 212);
     grid-column: 1 / 2;
-    grid-row: 1 / 6;
+    grid-row: 1 / 5;
     display: grid;
     gap: 25px;
 }
 
-.project-title {
-    display: grid;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    text-align: left;
-    background: rgb(226, 232, 240);
-}
 
 .main-contents {
     background: rgb(226, 232, 240);
     grid-column: 2 / 3;
-    grid-row: 3 / 6;
+    grid-row: 2 / 5;
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+
+.article-title {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 30px;
+
 }
 
 .articles {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .articles .title{
@@ -73,4 +73,29 @@
     text-align: left;
     color: black;
     font-size: 15px;
+}
+
+.annoncements-title {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.announcements-content {
+    background-color: white;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.trending-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.trending-content {
+    background-color: white;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
