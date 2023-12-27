@@ -40,6 +40,24 @@ input {
     grid-template-columns: 2fr 1fr;
 }
 
+.greeting {
+    display: flex;
+}
+
+.greeting .first-level {
+    font-size: 0.5rem;
+}
+
+.placeholder-image {
+    background-color: purple;
+    height: 1rem;
+    width: 1rem;
+}
+
+.welcome-message {
+    text-align: left;
+}
+
 .sidebar {
     background-color: rgb(25, 146, 212);
     grid-column: 1 / 2;
