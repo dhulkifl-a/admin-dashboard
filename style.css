@@ -7,17 +7,32 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header {
     background-color: rgb(255, 255, 255);
     grid-column: 2 / 3;
+    margin-left: 30px;
+    margin-top: 15px;
 }
 
 .header .top-level {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    border: 0.1rem #e2e8f0 solid;
+    background: #e2e8f0;
+    border-radius: 0.75rem;
+    width: 25rem;
+    padding: 0.25rem 0;
 }
 
 .header .second-level {
@@ -79,6 +94,7 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 .articles .title{
