@@ -93,8 +93,6 @@ input {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
-    background: white;
-    height: 300px;
 }
 
 .settings {
@@ -103,8 +101,11 @@ input {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
-    background: white;
-    height: 100px;
+}
+
+.sidebar p {
+    color: white;
+    padding-bottom: 1rem;
 }
 
 .main-contents {
