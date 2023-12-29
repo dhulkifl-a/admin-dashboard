@@ -58,6 +58,19 @@ input {
     text-align: left;
 }
 
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links button {
+    border: 0.1rem #E5E7EB solid;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: rgb(25, 146, 212);
+    width: 5rem;
+}
+
 .sidebar {
     background-color: rgb(25, 146, 212);
     grid-column: 1 / 2;
