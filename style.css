@@ -158,7 +158,7 @@ input {
     margin-top: 30px;
 }
 
-.announcements-content {
+.announcements {
     background-color: white;
     height: 250px;
     border-radius: 10px;
@@ -172,7 +172,7 @@ input {
     margin-bottom: 10px;
 }
 
-.trending-content {
+.trending {
     background-color: white;
     height: 250px;
     border-radius: 10px;
