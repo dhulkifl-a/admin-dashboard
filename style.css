@@ -134,17 +134,6 @@ input {
 
 }
 
-/*.trending-title {
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-.announcements-title {
-    text-align: left;
-    margin-bottom: 10px;
-    margin-top: 30px;
-}*/
-
 .articles {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
