@@ -143,11 +143,12 @@ input {
     margin-bottom: 40px;
 }
 
+p.title {
+    text-align: left;
+}
+
 .articles p.title{
-    text-align:left;
     font-size: 20px;
-    padding-top: 20px;
-    margin-left: var(--card-margin-left);
 }
 
 .card {
@@ -155,34 +156,25 @@ input {
     height: 200px;
     border-radius: 10px;
     box-shadow: 0px 3px 0.25rem #00000031;
+    padding: 20px;
     position: relative;
 }
 
 .card p:not(p.title) {
-    margin-left: var(--card-margin-left);
-    padding-bottom: 15px;
     font-size: 15px;
 }
 
-
-.announcements {
+.announcements, .trending {
     background-color: white;
     height: 250px;
     border-radius: 10px;
+    margin-top: 10px;
     margin-bottom: 50px;
     box-shadow: 0px 3px 0.25rem #00000031;
+    padding: 15px;
     position: relative;
 }
 
-
-.trending {
-    background-color: white;
-    height: 250px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    box-shadow: 0px 3px 0.25rem #00000031;
-    position: relative;
-}
  .main-contents-side-bar p:not(p.title), .card p:not(p.title) {
     text-align: left;
     color: var(--card-content-font-color)
