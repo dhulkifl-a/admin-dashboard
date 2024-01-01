@@ -7,13 +7,8 @@
     --card-content-font-size: ;
     --announcements-font-size: 0.5rem;
     --card-content-font-color: #6d6d6d;
-    --font: ;
+    --font: Roboto;
     --card-margin-left: 15px;
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url(./fonts/Roboto-Black.ttf);
 }
 
 * {
@@ -21,6 +16,17 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+input, p, .dashboard,
+.links, .welcome-message,
+.article-title, .announcements-title,
+.trending-title {
+    font-family: var(--font);
+}
 .container {
     text-align: center;
     display: grid;
