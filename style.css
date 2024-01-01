@@ -141,7 +141,7 @@ input {
     grid-column: 2 / 3;
     grid-row: 2 / 5;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 [class*="-title"] {
@@ -181,7 +181,7 @@ p.title {
 
 .announcements, .trending {
     background-color: white;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 35px;
