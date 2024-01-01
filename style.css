@@ -9,6 +9,7 @@
     --card-content-font-color: #6d6d6d;
     --font: Roboto;
     --card-margin-left: 15px;
+    --main-contents-side-bar: 20px;
 }
 
 * {
@@ -148,9 +149,9 @@ input {
 
 .articles {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
-    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 30px;
     margin-bottom: 40px;
 }
 
@@ -164,7 +165,7 @@ p.title {
 
 .card {
     background-color: white;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 0px 3px 0.25rem #00000031;
     padding: 20px;
@@ -184,6 +185,10 @@ p.title {
     box-shadow: 0px 3px 0.25rem #00000031;
     padding: 15px;
     position: relative;
+}
+
+.main-contents-side-bar {
+    margin-right: var(--main-contents-side-bar);
 }
 
  .main-contents-side-bar p:not(p.title), .card p:not(p.title) {
