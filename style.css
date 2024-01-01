@@ -46,7 +46,7 @@ input, p, .dashboard,
 
 .header .top-level {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
     margin-bottom: 30px;
 }
 
@@ -64,7 +64,7 @@ input {
 
 .header .second-level {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
 }
 
 .greeting {
@@ -88,6 +88,7 @@ input {
 .links {
     display: flex;
     justify-content: space-around;
+    margin-right: var(--main-contents-side-bar);
 }
 
 .links button {
@@ -96,6 +97,8 @@ input {
     color: white;
     background-color: rgb(25, 146, 212);
     width: 5rem;
+    height: 2rem;
+    font-weight: bold;
 }
 
 .sidebar {
