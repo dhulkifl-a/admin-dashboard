@@ -105,6 +105,14 @@ input {
     background-color: rgb(25, 146, 212);
     grid-column: 1 / 2;
     grid-row: 1 / 5;
+    padding-left: 10px;
+}
+
+img {
+    height: 2rem;
+    width: 2rem;
+    color: white;
+    vertical-align: middle;
 }
 
 .logo {
@@ -159,9 +167,9 @@ input {
 .articles {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    column-gap: 30px;
+    column-gap: 20px;
     row-gap: 20px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-bottom: 40px;
 }
 
@@ -199,6 +207,7 @@ p.title {
 
 .main-contents-side-bar {
     margin-right: var(--main-contents-side-bar);
+    padding-left: 10px;
 }
 
  .main-contents-side-bar p:not(p.title), .card p:not(p.title) {
