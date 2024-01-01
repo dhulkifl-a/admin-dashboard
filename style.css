@@ -188,3 +188,8 @@ p.title {
   .updated-privacy-policy {
     padding-bottom: 10px;
   }
+
+  .trending-content {
+    display: flex;
+    padding-bottom: 10px;
+  }
