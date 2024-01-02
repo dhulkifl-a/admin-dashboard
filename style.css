@@ -108,11 +108,18 @@ input {
     padding-left: 10px;
 }
 
-img {
+.dash {
     height: 2rem;
     width: 2rem;
-    color: white;
     vertical-align: middle;
+}
+
+svg:not(.dash){
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    fill: white;
+    padding-right: 1rem;
 }
 
 .logo {
