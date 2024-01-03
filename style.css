@@ -146,6 +146,7 @@ input {
     height: 1.25rem;
     width: 1.25rem;
     vertical-align: middle;
+    padding-right: 1rem;
 }
 
 .sidebar svg:not(.dash), .search-bar svg:not(.magnify),
