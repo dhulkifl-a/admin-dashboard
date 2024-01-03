@@ -161,7 +161,7 @@ svg:not(.dash){
     grid-column: 2 / 3;
     grid-row: 2 / 5;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr repeat(1,minmax(17rem, 1fr));
 }
 
 [class*="-title"] {
@@ -173,7 +173,7 @@ svg:not(.dash){
 
 .articles {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     column-gap: 20px;
     row-gap: 20px;
     padding: 10px 20px;
