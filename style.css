@@ -86,14 +86,16 @@ input {
     width: auto;
     border-radius: 5rem;
     border: 0.1rem rgb(173, 173, 173) solid;
+    margin-right: 15px;
 }
 
 .placeholder-image {
     vertical-align: middle;
-    height: 2rem;
+    height: 2.5rem;
     width: auto;
     border-radius: 5rem;
     border: 0.1rem rgb(173, 173, 173) solid;
+    margin-right: 10px;
 }
 
 .general-container {
@@ -234,6 +236,10 @@ p.title {
     position: relative;
 }
 
+.trending {
+    height: 230px;
+}
+
 .main-contents-side-bar {
     margin-right: var(--main-contents-side-bar);
     padding-left: 10px;
@@ -250,8 +256,12 @@ hr {
     color: var(--card-content-font-color)
 }
 
-.main-contents-side-bar p:not(p.title) {
+.main-contents-side-bar .announcements p:not(p.title) {
     font-size: var(--announcements-font-size);
+}
+
+.main-contents-side-bar .trending p:not(p.title) {
+    font-size: 0.8rem
 }
 
 .site-maintenance,
@@ -262,5 +272,5 @@ hr {
 
 .trending-content {
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
