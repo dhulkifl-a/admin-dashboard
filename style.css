@@ -22,16 +22,21 @@
     src: url(./fonts/Roboto-Regular.ttf);
 }
 
-input, p, .dashboard,
-.links, .welcome-message,
-.article-title, .announcements-title,
+input,
+p,
+.dashboard,
+.links,
+.welcome-message,
+.article-title,
+.announcements-title,
 .trending-title {
     font-family: var(--font);
 }
+
 .container {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(1,minmax(11rem, 1fr)) 4fr;
+    grid-template-columns: repeat(1, minmax(11rem, 1fr)) 4fr;
     min-height: 100vh;
 }
 
@@ -83,6 +88,14 @@ input {
     border: 0.1rem rgba(226, 232, 240, 0) solid;
 }
 
+.placeholder-image {
+    vertical-align: middle;
+    height: 2rem;
+    width: auto;
+    border-radius: 5rem;
+    border: 0.1rem rgba(226, 232, 240, 0) solid;
+}
+
 .general-container {
     display: flex;
     align-items: center;
@@ -122,7 +135,7 @@ input {
     vertical-align: middle;
 }
 
-svg:not(.dash){
+svg:not(.dash) {
     height: 1rem;
     width: 1rem;
     vertical-align: middle;
@@ -169,7 +182,7 @@ svg:not(.dash){
     grid-column: 2 / 3;
     grid-row: 2 / 5;
     display: grid;
-    grid-template-columns: 3fr repeat(1,minmax(16rem, 1fr));
+    grid-template-columns: 3fr repeat(1, minmax(16rem, 1fr));
 }
 
 [class*="-title"] {
@@ -192,7 +205,7 @@ p.title {
     text-align: left;
 }
 
-.articles p.title{
+.articles p.title {
     font-size: 20px;
 }
 
@@ -209,7 +222,8 @@ p.title {
     font-size: 15px;
 }
 
-.announcements, .trending {
+.announcements,
+.trending {
     background-color: white;
     height: 200px;
     border-radius: 10px;
@@ -230,21 +244,23 @@ hr {
 }
 
 
-.main-contents-side-bar p:not(p.title), .card p:not(p.title) {
+.main-contents-side-bar p:not(p.title),
+.card p:not(p.title) {
     text-align: left;
     color: var(--card-content-font-color)
- }
+}
 
 .main-contents-side-bar p:not(p.title) {
     font-size: var(--announcements-font-size);
-  }
+}
 
-.site-maintenance, .community-share-day, 
+.site-maintenance,
+.community-share-day,
 .updated-privacy-policy {
     padding-bottom: 10px;
-  }
+}
 
 .trending-content {
     display: flex;
     padding-bottom: 10px;
-  }
+}
