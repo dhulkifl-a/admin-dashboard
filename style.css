@@ -99,6 +99,7 @@ input {
     border-radius: 5rem;
     border: 0.1rem rgb(173, 173, 173) solid;
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .placeholder-image {
@@ -151,8 +152,10 @@ input {
 
 .magnify, .bell {
     fill: black;
-    height: 1.25rem;
-    width: 1.25rem;
+    min-height: 25px;
+    min-width: 25px;
+    max-height: 25px;
+    max-width: 25px;
     vertical-align: middle;
     padding-right: 1rem;
 }
@@ -239,6 +242,8 @@ p.title {
     box-shadow: 0px 3px 0.25rem #00000031;
     padding: 20px;
     position: relative;
+    background: rgb(25, 146, 212);
+    background: linear-gradient(90deg, rgb(74, 189, 251) 2%, white 2%, white 100%);
 }
 
 .card p:not(p.title) {
