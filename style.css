@@ -55,6 +55,10 @@ p,
     margin-bottom: 30px;
 }
 
+.search-bar{
+    display: flex;
+}
+
 form {
     text-align: left;
 }
@@ -137,7 +141,14 @@ input {
     vertical-align: middle;
 }
 
-svg:not(.dash) {
+.magnify, .bell {
+    fill: black;
+    height: 1.25rem;
+    width: 1.25rem;
+    vertical-align: middle;
+}
+
+.sidebar svg:not(.dash), .header svg:not(.magnify) {
     height: 1rem;
     width: 1rem;
     vertical-align: middle;
