@@ -85,7 +85,7 @@ input {
     height: 5rem;
     width: auto;
     border-radius: 5rem;
-    border: 0.1rem rgba(226, 232, 240, 0) solid;
+    border: 0.1rem rgb(173, 173, 173) solid;
 }
 
 .placeholder-image {
@@ -93,7 +93,7 @@ input {
     height: 2rem;
     width: auto;
     border-radius: 5rem;
-    border: 0.1rem rgba(226, 232, 240, 0) solid;
+    border: 0.1rem rgb(173, 173, 173) solid;
 }
 
 .general-container {
