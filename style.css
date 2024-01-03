@@ -148,7 +148,8 @@ input {
     vertical-align: middle;
 }
 
-.sidebar svg:not(.dash), .header svg:not(.magnify) {
+.sidebar svg:not(.dash), .search-bar svg:not(.magnify),
+.icons svg:not(.bell) {
     height: 1rem;
     width: 1rem;
     vertical-align: middle;
