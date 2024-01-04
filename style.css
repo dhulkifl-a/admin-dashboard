@@ -10,6 +10,8 @@
     --font: Roboto;
     --card-margin-left: 15px;
     --main-contents-side-bar: 20px;
+    --font-bold: Roboto-bold;
+    --font-medium: Roboto-medium;
 }
 
 * {
@@ -20,6 +22,16 @@
 @font-face {
     font-family: Roboto;
     src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-medium;
+    src: url(./fonts/Roboto-Medium.ttf)
 }
 
 input,
@@ -88,10 +100,6 @@ input {
     display: flex;
 }
 
-.greeting .first-level {
-    font-size: 0.5rem;
-}
-
 .profile-picture {
     vertical-align: middle;
     height: 5rem;
@@ -118,6 +126,15 @@ input {
 
 .welcome-message {
     text-align: left;
+    font-family: var(--font-bold);
+}
+
+.first-level {
+    font-size: 0.75rem;
+}
+
+.second-level {
+    font-size: 1.5rem;
 }
 
 .links {
@@ -144,10 +161,15 @@ input {
     padding-left: 10px;
 }
 
+.sidebar p {
+    font-family: var(--font-medium);
+}
+
 .dash {
     height: 2rem;
     width: 2rem;
     vertical-align: middle;
+    padding-right: 0.5rem;
 }
 
 .magnify, .bell {
@@ -171,11 +193,15 @@ input {
 
 .logo {
     text-align: left;
-    padding: 10px;
+    padding: 10px 0 10px 0 ;
     margin-bottom: 30px;
     color: white;
 }
 
+.dashboard {
+    font-family: var(--font-medium);
+    font-size: 1.2rem;
+}
 
 .side-bar-links {
     text-align: left;
@@ -200,7 +226,6 @@ input {
 
 .article-title {
     margin-left: 30px;
-    font-weight: bold;
 }
 
 .main-contents {
@@ -214,7 +239,8 @@ input {
 [class*="-title"] {
     text-align: left;
     padding-top: 30px;
-    font-weight: bold;
+    font-family: var(--font-medium);
+    font-size: 1.2rem;
 
 }
 
@@ -232,12 +258,14 @@ p.title {
 }
 
 .articles p.title {
-    font-size: 20px;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: var(--font-medium);
 }
 
 .card {
     background-color: white;
-    height: 7rem;
+    height: clamp(7rem,9rem, 10rem);
     width: auto;
     border-radius: 10px;
     box-shadow: 0px 3px 0.25rem #00000031;
@@ -248,7 +276,7 @@ p.title {
 }
 
 .card p:not(p.title) {
-    font-size: 15px;
+    font-size: 0.8rem;
 }
 
 .card-icons {
@@ -258,6 +286,7 @@ p.title {
 }
 
 .card-icons svg {
+    padding-top: 1rem;
     height: 1.5rem;
     width: 1.5rem;
     padding-right: 1rem;
@@ -269,7 +298,7 @@ p.title {
     height: 200px;
     border-radius: 10px;
     margin-top: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
     box-shadow: 0px 3px 0.25rem #00000031;
     padding: 15px 25px;
     position: relative;
