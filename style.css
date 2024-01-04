@@ -52,6 +52,10 @@ p,
     min-height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     background-color: rgb(255, 255, 255);
     grid-column: 2 / 3;
@@ -153,6 +157,7 @@ input {
     width: 5rem;
     height: 2rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .sidebar {
@@ -187,6 +192,10 @@ input {
     padding-left: 1rem;
 }
 
+.name {
+    font-family: var(--font-bold);
+    color: black;
+}
 .sidebar svg:not(.dash), .search-bar svg:not(.magnify),
 .icons svg:not(.bell) {
     height: 1rem;
