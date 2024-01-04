@@ -238,6 +238,7 @@ p.title {
 .card {
     background-color: white;
     height: 7rem;
+    width: auto;
     border-radius: 10px;
     box-shadow: 0px 3px 0.25rem #00000031;
     padding: 20px;
@@ -248,6 +249,18 @@ p.title {
 
 .card p:not(p.title) {
     font-size: 15px;
+}
+
+.card-icons {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.card-icons svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-right: 1rem;
 }
 
 .announcements,
