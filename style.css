@@ -81,13 +81,14 @@ p,
 
 form {
     text-align: left;
+    width: 100%;
 }
 
 input {
     border: 0.1rem #e2e8f0 solid;
     background: #e2e8f0;
     border-radius: 0.75rem;
-    width: 25rem;
+    width: clamp(1%, 32rem, 100%);
     padding: 0.25rem 0;
 }
 
@@ -180,6 +181,10 @@ input {
     max-width: 25px;
     vertical-align: middle;
     padding-right: 1rem;
+}
+
+.bell {
+    padding-left: 1rem;
 }
 
 .sidebar svg:not(.dash), .search-bar svg:not(.magnify),
@@ -283,6 +288,10 @@ p.title {
     display: flex;
     align-items: center;
     justify-content: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 1rem;
 }
 
 .card-icons svg {
